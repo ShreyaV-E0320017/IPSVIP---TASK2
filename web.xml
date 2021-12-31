@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+	<display-name>Database</display-name>
+	<servlet>
+	<servlet-name>abc</servlet-name>
+	<servlet-class>com.shreya.Student</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>abc1</servlet-name>
+	<servlet-class>com.shreya.Insertrec</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>abc2</servlet-name>
+	<servlet-class>com.shreya.Update</servlet-class>
+	</servlet>	
+	<servlet>
+	<servlet-name>abc3</servlet-name>
+	<servlet-class>com.shreya.Delete</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>abc</servlet-name>	
+	<url-pattern>/servletdatabase</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	<servlet-name>abc1</servlet-name>	
+	<url-pattern>/insertrecords</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	<servlet-name>abc2</servlet-name>	
+	<url-pattern>/updaterecords</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	<servlet-name>abc3</servlet-name>	
+	<url-pattern>/deleterecords</url-pattern>	
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+</web-app>
