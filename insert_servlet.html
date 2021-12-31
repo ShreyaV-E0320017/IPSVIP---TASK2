@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+<title></title>  
+</head>  
+<body>  
+  
+<h1 style="color:blue">STUDENT DATABASE MANAGEMENT SYSTEM</h1>
+
+<form method="post" action="servletdatabase">
+Database Name:<input type="text" name="DbCreate"></input>
+<input type="submit" value="createDB"></input>
+</form>
+<br/><br/>
+
+<form method="get" action="insertrecords">
+
+Student Name:<input type="text" name="Stud_name"><br/>
+Enrolment ID:<input type="text" name="Enrolment_id"><br/>
+Balance:<input type="text" name="View_balance"><br/>
+Fees:<input type="text" name="Tuition_fees"><br/>
+Status total:<input type="text" name="Status"><br/>
+<input type="submit" name="insert" value="Insert"></input>
+</form>
+
+
+<form method="get" action="updaterecords">
+Student ID:<input type="text" name="id"><br/>
+Enrolment ID:<input type="text" name="Enrolment_id"><br/>
+Balance:<input type="text" name="View_balance"><br/>
+Fees:<input type="text" name="Tuition_fees"><br/>
+Status total:<input type="text" name="Status"><br/>
+<input type="submit" name="insert" value="Insert"></input>
+</form>
+
+
+<form method="get" action="deleterecords">
+Student ID:<input type="text" name="id"><br/>
+<input type="submit" name="delete" value="Delete"></input>
+</form>  
+<br/>   
+  
+</body>  
+</html>  
